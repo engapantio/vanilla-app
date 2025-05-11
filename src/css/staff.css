@@ -1,0 +1,60 @@
+.staff-section {
+  margin-bottom: 100px;
+}
+
+.staff-container {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+.staff-title {
+  text-align: center;
+}
+
+.staff-details {
+  width: 542px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.staff-members {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 25px 91px;
+  margin-bottom: 50px;
+}
+
+.staff-block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: calc((100% - 91px) / 2);
+}
+
+.avatar {
+  border-radius: 100%;
+  stroke-width: 2px;
+  overflow: hidden;
+}
+
+.staff-role {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  border-radius: 35px;
+}
+
+.staff-power {
+  font-weight: 500;
+  text-align: center;
+  color: #2f281e;
+  padding: 14px 20px;
+}
+
+.staff-link {
+  width: 216px;
+}
